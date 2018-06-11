@@ -7,7 +7,8 @@ describe "A cell" do
   end
 
   it 'is initially alive' do
-
+    cell = Cell.new
+    expect(cell).to be_alive
   end
 
   xit 'can die' do
