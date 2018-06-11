@@ -15,4 +15,8 @@ class Cell
     @alive = false
   end
 
+  def tick
+
+  end
+
 end
