@@ -6,7 +6,7 @@ describe "A cell" do
     Cell.new
   end
 
-  xit 'is initially alive' do
+  it 'is initially alive' do
 
   end
 
