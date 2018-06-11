@@ -2,7 +2,7 @@ class Cell
 
   attr_accessor :neighbors
 
-  def initialize
+  def initialize()
     @alive = true
     @neighbors = []
   end
