@@ -14,7 +14,7 @@ describe "A cell" do
   it 'can die' do
     cell = Cell.new
     cell.die
-    expect(cell).to be_dead
+    expect(cell).to_not be_alive
   end
 
   xit 'has neighbors, which is initially an empty array' do
